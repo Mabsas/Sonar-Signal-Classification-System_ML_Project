@@ -97,12 +97,11 @@ with st.sidebar:
 
 if page == "About":
 
-    st.title("🌊 About the Project")
+  st.title("🌊 Sonar Signal Classification")
+  st.subheader("Rock vs Mine Prediction")
 
     st.markdown(
         """
-## Sonar Signal Classification System using Machine Learning
-
 The **Sonar Signal Classification System** is an end-to-end supervised machine learning project developed using the **UCI Sonar Dataset**. The objective is to classify sonar signals as either **Rock (R)** or **Mine (M)** based on 60 numerical sonar signal measurements collected from underwater objects.
 
 This project was designed not only to build an accurate predictive model but also to demonstrate a complete machine learning development workflow. From exploratory data analysis and model comparison to hyperparameter optimization and explainable AI, every stage of the project follows practices commonly used in real-world machine learning applications.
