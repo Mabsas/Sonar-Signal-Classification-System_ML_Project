@@ -451,10 +451,8 @@ Below are some screenshots showcasing the major features of the **Sonar Signal C
 
 **Streamlit Cloud**
 
-*(Add deployment link after deployment)*
-
 ```
-https://your-app.streamlit.app
+[https://your-app.streamlit.app](https://sonar-signal-classification.streamlit.app/)
 ```
 
 ---
