@@ -493,8 +493,6 @@ Bachelor of Science in Computer Science & Engineering
 
 Ahsanullah University of Science & Technology (AUST)
 
-GitHub:
-https://github.com/Mabsas
 
 LinkedIn:
 https://www.linkedin.com/in/mohammad-sahil-49b713297/
