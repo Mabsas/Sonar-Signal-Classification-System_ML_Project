@@ -452,7 +452,7 @@ Below are some screenshots showcasing the major features of the **Sonar Signal C
 **Streamlit Cloud**
 
 ```
-[https://your-app.streamlit.app](https://sonar-signal-classification.streamlit.app/)
+https://sonar-signal-classification.streamlit.app
 ```
 
 ---
