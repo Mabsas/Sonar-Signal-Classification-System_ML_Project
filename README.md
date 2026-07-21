@@ -375,53 +375,77 @@ The **Sonar Signal Classification System** will now be running locally, allowing
 
 # 📸 Application Preview
 
-Add screenshots after deployment.
-
-### Home Page
-
-```
-assets/screenshots/About.png
-```
-
-### Single Prediction (ROCK)
-
-```
-assets/screenshots/Single_Prediction_Rock.png
-assets/screenshots/Single_Prediction_Rock_1.png
-```
-
-### SHAP Explainability (ROCK)
-
-```
-assets/screenshots/MODEL1.png
-assets/screenshots/MODEL2.png
-```
-
-### Single Prediction (MINE)
-
-```
-assets/screenshots/Mine.png
-```
-
-### SHAP Explainability (MINE)
-
-```
-assets/screenshots/Mine_Model.png
-```
-
-### Batch Prediction
-
-```
-assets/screenshots/BATCH.png
-assets/screenshots/BATCH1.png
-assets/screenshots/BATCH2.png
-```
-### Output
-
-assets/screenshots/Output.png
-assets/screenshots/Output1.png
+Below are some screenshots showcasing the major features of the **Sonar Signal Classification System**.
 
 ---
+
+## 🏠 Home Page
+
+![Home Page](assets/screenshots/About.png)
+
+---
+
+## 🎯 Single Prediction (Rock)
+
+### Input Interface
+
+![Rock Input](assets/screenshots/Single_Prediction_Rock.png)
+
+### Prediction Result
+
+![Rock Prediction Result](assets/screenshots/Single_Prediction_Rock_1.png)
+
+---
+
+## 🧠 SHAP Explainability (Rock)
+
+### Global Feature Importance
+
+![SHAP Global Explanation](assets/screenshots/MODEL1.png)
+
+### Local Prediction Explanation
+
+![SHAP Local Explanation](assets/screenshots/MODEL2.png)
+
+---
+
+## 💣 Single Prediction (Mine)
+
+![Mine Prediction](assets/screenshots/Mine.png)
+
+---
+
+## 🧠 SHAP Explainability (Mine)
+
+![Mine SHAP Explanation](assets/screenshots/Mine_Model.png)
+
+---
+
+## 📂 Batch Prediction
+
+### Upload CSV
+
+![Batch Upload](assets/screenshots/BATCH.png)
+
+### Prediction Preview
+
+![Batch Preview](assets/screenshots/BATCH1.png)
+
+### Batch Prediction Result
+
+![Batch Result](assets/screenshots/BATCH2.png)
+
+---
+
+## 📄 Prediction Report
+
+### Downloadable Report
+
+![Prediction Report](assets/screenshots/Output.png)
+
+### Report Preview
+
+![Report Preview](assets/screenshots/Output1.png)
 
 # 🌐 Live Demo
 
