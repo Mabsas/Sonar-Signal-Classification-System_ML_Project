@@ -97,12 +97,11 @@ with st.sidebar:
 
 if page == "About":
 
-  st.title("🌊 Sonar Signal Classification")
-  st.subheader("Rock vs Mine Prediction")
+    st.title("🌊 Sonar Signal Classification")
+    st.subheader("Rock vs Mine Prediction")
 
     st.markdown(
         """
-        
 The **Sonar Signal Classification System** is an end-to-end supervised machine learning project developed using the **UCI Sonar Dataset**. The objective is to classify sonar signals as either **Rock (R)** or **Mine (M)** based on 60 numerical sonar signal measurements collected from underwater objects.
 
 This project was designed not only to build an accurate predictive model but also to demonstrate a complete machine learning development workflow. From exploratory data analysis and model comparison to hyperparameter optimization and explainable AI, every stage of the project follows practices commonly used in real-world machine learning applications.
@@ -113,12 +112,11 @@ This project was designed not only to build an accurate predictive model but als
 
 The project utilizes the **UCI Sonar Dataset**, which contains:
 
-* **208 samples**
-* **60 numerical sonar signal features**
-* **Binary target variable**
-
-  * **R → Rock**
-  * **M → Mine**
+- **208 samples**
+- **60 numerical sonar signal features**
+- **Binary target variable**
+  - **R → Rock**
+  - **M → Mine**
 
 Each feature represents the energy of a sonar signal reflected at different frequencies, making this a binary classification problem.
 
@@ -130,12 +128,12 @@ Before training any models, a comprehensive exploratory analysis was performed t
 
 The analysis included:
 
-* Dataset inspection and statistical summaries
-* Missing value and duplicate record analysis
-* Class distribution analysis
-* Feature distribution visualization
-* Box plots for identifying feature spread and potential outliers
-* Correlation heatmap to examine relationships between sonar features
+- Dataset inspection and statistical summaries
+- Missing value and duplicate record analysis
+- Class distribution analysis
+- Feature distribution visualization
+- Box plots for identifying feature spread and potential outliers
+- Correlation heatmap to examine relationships between sonar features
 
 These analyses provided valuable insights into the dataset and ensured the data was suitable for model development.
 
@@ -145,11 +143,11 @@ These analyses provided valuable insights into the dataset and ensured the data 
 
 To prepare the data for machine learning, several preprocessing steps were carried out:
 
-* Feature and target separation
-* Label encoding of target classes
-* Stratified train-test splitting
-* Feature scaling for algorithms requiring standardized inputs
-* Consistent feature ordering for reliable model inference
+- Feature and target separation
+- Label encoding of target classes
+- Stratified train-test splitting
+- Feature scaling for algorithms requiring standardized inputs
+- Consistent feature ordering for reliable model inference
 
 The preprocessing pipeline was designed to ensure identical transformations during both training and prediction.
 
@@ -161,12 +159,12 @@ Multiple machine learning algorithms were implemented and evaluated to determine
 
 The models developed include:
 
-* Logistic Regression
-* Support Vector Machine (SVM)
-* Decision Tree
-* Random Forest
-* XGBoost
-* CatBoost
+- Logistic Regression
+- Support Vector Machine (SVM)
+- Decision Tree
+- Random Forest
+- XGBoost
+- CatBoost
 
 Rather than relying on a single algorithm, each model was trained and compared using identical datasets and evaluation criteria to ensure a fair comparison.
 
@@ -178,16 +176,16 @@ Model performance was assessed using a comprehensive set of evaluation metrics r
 
 The evaluation process included:
 
-* Accuracy
-* Precision
-* Recall
-* F1-Score
-* Confusion Matrix
-* Classification Report
-* ROC Curve
-* ROC-AUC Score
-* Precision–Recall Curve
-* Average Precision Score
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- Classification Report
+- ROC Curve
+- ROC-AUC Score
+- Precision–Recall Curve
+- Average Precision Score
 
 To improve model robustness and reduce the risk of overfitting, **Stratified K-Fold Cross Validation** was performed. The models were further optimized using **GridSearchCV**, allowing multiple hyperparameter combinations to be evaluated systematically.
 
@@ -201,11 +199,11 @@ To improve model transparency and interpretability, **SHAP (SHapley Additive Exp
 
 Several SHAP visualizations were generated to understand how different sonar signal features influenced model predictions, including:
 
-* SHAP Summary Plot
-* Feature Importance Plot
-* Dependence Plot
-* Waterfall Plot
-* Force Plot
+- SHAP Summary Plot
+- Feature Importance Plot
+- Dependence Plot
+- Waterfall Plot
+- Force Plot
 
 These explainability techniques provide insight into the decision-making process of the model, making its predictions more understandable and trustworthy.
 
@@ -215,33 +213,29 @@ These explainability techniques provide insight into the decision-making process
 
 After extensive experimentation and optimization, the **Tuned XGBoost Classifier** was selected as the final model due to its superior predictive performance and strong generalization capability.
 
-### Final Results
-
-| Metric                        |      Score |
-| :---------------------------- | ---------: |
-| **Test Accuracy**             | **92.86%** |
+| Metric | Score |
+|:---|---:|
+| **Test Accuracy** | **92.86%** |
 | **Cross-Validation Accuracy** | **87.53%** |
-| **ROC-AUC Score**             |  **0.980** |
-| **Average Precision Score**   |  **0.980** |
+| **ROC-AUC Score** | **0.980** |
+| **Average Precision Score** | **0.980** |
 
 ---
 
 ## 🎯 Skills Demonstrated
 
-This project showcases practical experience with:
-
-* Exploratory Data Analysis (EDA)
-* Data Preprocessing
-* Feature Engineering
-* Binary Classification
-* Machine Learning Model Comparison
-* Cross-Validation Techniques
-* Hyperparameter Optimization
-* Ensemble Learning (Random Forest, XGBoost & CatBoost)
-* Model Evaluation & Performance Analysis
-* Explainable AI using SHAP
-* Model Serialization
-* Production-Ready Prediction Pipeline Development
+- Exploratory Data Analysis (EDA)
+- Data Preprocessing
+- Feature Engineering
+- Binary Classification
+- Machine Learning Model Comparison
+- Cross-Validation Techniques
+- Hyperparameter Optimization
+- Ensemble Learning (Random Forest, XGBoost & CatBoost)
+- Model Evaluation & Performance Analysis
+- Explainable AI using SHAP
+- Model Serialization
+- Production-Ready Prediction Pipeline Development
 
 ---
 
@@ -250,7 +244,6 @@ This project showcases practical experience with:
 This project demonstrates the complete machine learning lifecycle—from understanding and exploring raw sonar data to developing, evaluating, optimizing, and interpreting predictive models. Through systematic experimentation, rigorous evaluation, and explainable AI techniques, the final **Tuned XGBoost** model achieved strong predictive performance while maintaining transparency and reliability. The result is a well-structured machine learning solution that reflects industry-standard practices in model development and evaluation.
 """
     )
-
 # =====================================================
 # SINGLE PREDICTION PAGE
 # =====================================================
